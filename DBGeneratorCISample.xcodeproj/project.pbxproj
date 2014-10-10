@@ -13,18 +13,15 @@
 		9A09CB0A19E82D5C003AEEA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A09CB0819E82D5C003AEEA9 /* Main.storyboard */; };
 		9A09CB0C19E82D5C003AEEA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A09CB0B19E82D5C003AEEA9 /* Images.xcassets */; };
 		9A09CB0F19E82D5C003AEEA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A09CB0D19E82D5C003AEEA9 /* LaunchScreen.xib */; };
-		9A09CB1B19E82D5C003AEEA9 /* DBGeneratorCISampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09CB1A19E82D5C003AEEA9 /* DBGeneratorCISampleTests.m */; };
+		9A09CB2D19E82D7A003AEEA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09CB2C19E82D7A003AEEA9 /* main.m */; };
+		9A09CB3019E82D7A003AEEA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09CB2F19E82D7A003AEEA9 /* AppDelegate.m */; };
+		9A09CB3219E82D7A003AEEA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A09CB3119E82D7A003AEEA9 /* Images.xcassets */; };
+		9A09CB3519E82D7A003AEEA9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A09CB3319E82D7A003AEEA9 /* MainMenu.xib */; };
+		9A09CB4B19E82DAC003AEEA9 /* DBGeneratorCI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09CB4A19E82DAC003AEEA9 /* DBGeneratorCI.m */; };
+		9A09CB4D19E82FAC003AEEA9 /* DBGeneratorCI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09CB4A19E82DAC003AEEA9 /* DBGeneratorCI.m */; };
+		9A09CB5419E82FE1003AEEA9 /* DBFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09CB5019E82FE1003AEEA9 /* DBFilters.m */; };
+		9A09CB5519E82FE1003AEEA9 /* DBFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09CB5319E82FE1003AEEA9 /* DBFilters.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9A09CB1519E82D5C003AEEA9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9A09CAF319E82D5C003AEEA9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9A09CAFA19E82D5C003AEEA9;
-			remoteInfo = DBGeneratorCISample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9A09CAFB19E82D5C003AEEA9 /* DBGeneratorCISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBGeneratorCISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,9 +34,19 @@
 		9A09CB0919E82D5C003AEEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A09CB0B19E82D5C003AEEA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9A09CB0E19E82D5C003AEEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9A09CB1419E82D5C003AEEA9 /* DBGeneratorCISampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBGeneratorCISampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A09CB1919E82D5C003AEEA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A09CB1A19E82D5C003AEEA9 /* DBGeneratorCISampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBGeneratorCISampleTests.m; sourceTree = "<group>"; };
+		9A09CB2819E82D7A003AEEA9 /* DBGeneratorCISampleMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBGeneratorCISampleMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A09CB2B19E82D7A003AEEA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A09CB2C19E82D7A003AEEA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A09CB2E19E82D7A003AEEA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A09CB2F19E82D7A003AEEA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A09CB3119E82D7A003AEEA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A09CB3419E82D7A003AEEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9A09CB4919E82DAC003AEEA9 /* DBGeneratorCI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBGeneratorCI.h; sourceTree = "<group>"; };
+		9A09CB4A19E82DAC003AEEA9 /* DBGeneratorCI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBGeneratorCI.m; sourceTree = "<group>"; };
+		9A09CB4F19E82FE1003AEEA9 /* DBFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBFilters.h; sourceTree = "<group>"; };
+		9A09CB5019E82FE1003AEEA9 /* DBFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBFilters.m; sourceTree = "<group>"; };
+		9A09CB5219E82FE1003AEEA9 /* DBFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBFilters.h; sourceTree = "<group>"; };
+		9A09CB5319E82FE1003AEEA9 /* DBFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBFilters.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +57,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A09CB1119E82D5C003AEEA9 /* Frameworks */ = {
+		9A09CB2519E82D7A003AEEA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,8 +70,11 @@
 		9A09CAF219E82D5C003AEEA9 = {
 			isa = PBXGroup;
 			children = (
+				9A09CB4E19E82FE1003AEEA9 /* iOS Generated */,
+				9A09CB5119E82FE1003AEEA9 /* Mac OS Generated */,
+				9A09CB4819E82D97003AEEA9 /* DBGeneratorCI */,
 				9A09CAFD19E82D5C003AEEA9 /* DBGeneratorCISample */,
-				9A09CB1719E82D5C003AEEA9 /* DBGeneratorCISampleTests */,
+				9A09CB2919E82D7A003AEEA9 /* DBGeneratorCISampleMacOS */,
 				9A09CAFC19E82D5C003AEEA9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				9A09CAFB19E82D5C003AEEA9 /* DBGeneratorCISample.app */,
-				9A09CB1419E82D5C003AEEA9 /* DBGeneratorCISampleTests.xctest */,
+				9A09CB2819E82D7A003AEEA9 /* DBGeneratorCISampleMacOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,21 +112,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9A09CB1719E82D5C003AEEA9 /* DBGeneratorCISampleTests */ = {
+		9A09CB2919E82D7A003AEEA9 /* DBGeneratorCISampleMacOS */ = {
 			isa = PBXGroup;
 			children = (
-				9A09CB1A19E82D5C003AEEA9 /* DBGeneratorCISampleTests.m */,
-				9A09CB1819E82D5C003AEEA9 /* Supporting Files */,
+				9A09CB2E19E82D7A003AEEA9 /* AppDelegate.h */,
+				9A09CB2F19E82D7A003AEEA9 /* AppDelegate.m */,
+				9A09CB3119E82D7A003AEEA9 /* Images.xcassets */,
+				9A09CB3319E82D7A003AEEA9 /* MainMenu.xib */,
+				9A09CB2A19E82D7A003AEEA9 /* Supporting Files */,
 			);
-			path = DBGeneratorCISampleTests;
+			path = DBGeneratorCISampleMacOS;
 			sourceTree = "<group>";
 		};
-		9A09CB1819E82D5C003AEEA9 /* Supporting Files */ = {
+		9A09CB2A19E82D7A003AEEA9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9A09CB1919E82D5C003AEEA9 /* Info.plist */,
+				9A09CB2B19E82D7A003AEEA9 /* Info.plist */,
+				9A09CB2C19E82D7A003AEEA9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A09CB4819E82D97003AEEA9 /* DBGeneratorCI */ = {
+			isa = PBXGroup;
+			children = (
+				9A09CB4919E82DAC003AEEA9 /* DBGeneratorCI.h */,
+				9A09CB4A19E82DAC003AEEA9 /* DBGeneratorCI.m */,
+			);
+			name = DBGeneratorCI;
+			sourceTree = "<group>";
+		};
+		9A09CB4E19E82FE1003AEEA9 /* iOS Generated */ = {
+			isa = PBXGroup;
+			children = (
+				9A09CB4F19E82FE1003AEEA9 /* DBFilters.h */,
+				9A09CB5019E82FE1003AEEA9 /* DBFilters.m */,
+			);
+			path = "iOS Generated";
+			sourceTree = "<group>";
+		};
+		9A09CB5119E82FE1003AEEA9 /* Mac OS Generated */ = {
+			isa = PBXGroup;
+			children = (
+				9A09CB5219E82FE1003AEEA9 /* DBFilters.h */,
+				9A09CB5319E82FE1003AEEA9 /* DBFilters.m */,
+			);
+			path = "Mac OS Generated";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,23 +180,22 @@
 			productReference = 9A09CAFB19E82D5C003AEEA9 /* DBGeneratorCISample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A09CB1319E82D5C003AEEA9 /* DBGeneratorCISampleTests */ = {
+		9A09CB2719E82D7A003AEEA9 /* DBGeneratorCISampleMacOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A09CB2119E82D5C003AEEA9 /* Build configuration list for PBXNativeTarget "DBGeneratorCISampleTests" */;
+			buildConfigurationList = 9A09CB4219E82D7A003AEEA9 /* Build configuration list for PBXNativeTarget "DBGeneratorCISampleMacOS" */;
 			buildPhases = (
-				9A09CB1019E82D5C003AEEA9 /* Sources */,
-				9A09CB1119E82D5C003AEEA9 /* Frameworks */,
-				9A09CB1219E82D5C003AEEA9 /* Resources */,
+				9A09CB2419E82D7A003AEEA9 /* Sources */,
+				9A09CB2519E82D7A003AEEA9 /* Frameworks */,
+				9A09CB2619E82D7A003AEEA9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9A09CB1619E82D5C003AEEA9 /* PBXTargetDependency */,
 			);
-			name = DBGeneratorCISampleTests;
-			productName = DBGeneratorCISampleTests;
-			productReference = 9A09CB1419E82D5C003AEEA9 /* DBGeneratorCISampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = DBGeneratorCISampleMacOS;
+			productName = DBGeneratorCISampleMacOS;
+			productReference = 9A09CB2819E82D7A003AEEA9 /* DBGeneratorCISampleMacOS.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -169,9 +209,8 @@
 					9A09CAFA19E82D5C003AEEA9 = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
-					9A09CB1319E82D5C003AEEA9 = {
+					9A09CB2719E82D7A003AEEA9 = {
 						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = 9A09CAFA19E82D5C003AEEA9;
 					};
 				};
 			};
@@ -189,7 +228,7 @@
 			projectRoot = "";
 			targets = (
 				9A09CAFA19E82D5C003AEEA9 /* DBGeneratorCISample */,
-				9A09CB1319E82D5C003AEEA9 /* DBGeneratorCISampleTests */,
+				9A09CB2719E82D7A003AEEA9 /* DBGeneratorCISampleMacOS */,
 			);
 		};
 /* End PBXProject section */
@@ -205,10 +244,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A09CB1219E82D5C003AEEA9 /* Resources */ = {
+		9A09CB2619E82D7A003AEEA9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A09CB3219E82D7A003AEEA9 /* Images.xcassets in Resources */,
+				9A09CB3519E82D7A003AEEA9 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,28 +261,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A09CB0719E82D5C003AEEA9 /* ViewController.m in Sources */,
+				9A09CB5419E82FE1003AEEA9 /* DBFilters.m in Sources */,
 				9A09CB0419E82D5C003AEEA9 /* AppDelegate.m in Sources */,
+				9A09CB5519E82FE1003AEEA9 /* DBFilters.m in Sources */,
 				9A09CB0119E82D5C003AEEA9 /* main.m in Sources */,
+				9A09CB4B19E82DAC003AEEA9 /* DBGeneratorCI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A09CB1019E82D5C003AEEA9 /* Sources */ = {
+		9A09CB2419E82D7A003AEEA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A09CB1B19E82D5C003AEEA9 /* DBGeneratorCISampleTests.m in Sources */,
+				9A09CB3019E82D7A003AEEA9 /* AppDelegate.m in Sources */,
+				9A09CB2D19E82D7A003AEEA9 /* main.m in Sources */,
+				9A09CB4D19E82FAC003AEEA9 /* DBGeneratorCI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9A09CB1619E82D5C003AEEA9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9A09CAFA19E82D5C003AEEA9 /* DBGeneratorCISample */;
-			targetProxy = 9A09CB1519E82D5C003AEEA9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9A09CB0819E82D5C003AEEA9 /* Main.storyboard */ = {
@@ -258,6 +296,14 @@
 				9A09CB0E19E82D5C003AEEA9 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		9A09CB3319E82D7A003AEEA9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A09CB3419E82D7A003AEEA9 /* Base */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -359,37 +405,36 @@
 			};
 			name = Release;
 		};
-		9A09CB2219E82D5C003AEEA9 /* Debug */ = {
+		9A09CB4319E82D7A003AEEA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = DBGeneratorCISampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				INFOPLIST_FILE = DBGeneratorCISampleMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBGeneratorCISample.app/DBGeneratorCISample";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		9A09CB2319E82D5C003AEEA9 /* Release */ = {
+		9A09CB4419E82D7A003AEEA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DBGeneratorCISampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = DBGeneratorCISampleMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBGeneratorCISample.app/DBGeneratorCISample";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -413,11 +458,11 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		9A09CB2119E82D5C003AEEA9 /* Build configuration list for PBXNativeTarget "DBGeneratorCISampleTests" */ = {
+		9A09CB4219E82D7A003AEEA9 /* Build configuration list for PBXNativeTarget "DBGeneratorCISampleMacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A09CB2219E82D5C003AEEA9 /* Debug */,
-				9A09CB2319E82D5C003AEEA9 /* Release */,
+				9A09CB4319E82D7A003AEEA9 /* Debug */,
+				9A09CB4419E82D7A003AEEA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
