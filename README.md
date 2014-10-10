@@ -1,7 +1,7 @@
 DBGeneratorCI
 =============
 
-A simple class that generates CoreImage `CIFilter` subclasses to allow the use of property setters to set values on filters.
+A simple class that generates CoreImage `CIFilter` subclasses to allow the use of property setters to set values on filters, compile-time type-checking and autocomplete.
 
 The CoreImage framework can be a daunting experience, especially for the novice. With heavy reliance on KVC, misspelled property names are a regular occurrence and there is zero code completion. The following snippet demonstrates the problem very well. 
 ```objc
