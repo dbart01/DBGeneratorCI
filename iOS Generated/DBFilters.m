@@ -33,7 +33,7 @@
 
 - (void)setInputTransformT:(CGAffineTransform)inputTransformT {
     CGAffineTransform t = inputTransformT;
-    [self setValue:[NSValue valueWithBytes:&t objCType:@encode(CGAffineTransform)] forKey:@"inputTransformT"];
+    [self setValue:[NSValue valueWithBytes:&t objCType:@encode(CGAffineTransform)] forKey:@"inputTransform"];
 }
 
 @end
@@ -47,7 +47,7 @@
 
 - (void)setInputTransformT:(CGAffineTransform)inputTransformT {
     CGAffineTransform t = inputTransformT;
-    [self setValue:[NSValue valueWithBytes:&t objCType:@encode(CGAffineTransform)] forKey:@"inputTransformT"];
+    [self setValue:[NSValue valueWithBytes:&t objCType:@encode(CGAffineTransform)] forKey:@"inputTransform"];
 }
 
 @end
@@ -61,7 +61,7 @@
 
 - (void)setInputTransformT:(CGAffineTransform)inputTransformT {
     CGAffineTransform t = inputTransformT;
-    [self setValue:[NSValue valueWithBytes:&t objCType:@encode(CGAffineTransform)] forKey:@"inputTransformT"];
+    [self setValue:[NSValue valueWithBytes:&t objCType:@encode(CGAffineTransform)] forKey:@"inputTransform"];
 }
 
 @end

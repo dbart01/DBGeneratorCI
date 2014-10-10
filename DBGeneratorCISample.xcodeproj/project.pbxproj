@@ -20,7 +20,7 @@
 		9A09CB4B19E82DAC003AEEA9 /* DBGeneratorCI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09CB4A19E82DAC003AEEA9 /* DBGeneratorCI.m */; };
 		9A09CB4D19E82FAC003AEEA9 /* DBGeneratorCI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09CB4A19E82DAC003AEEA9 /* DBGeneratorCI.m */; };
 		9A09CB5419E82FE1003AEEA9 /* DBFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09CB5019E82FE1003AEEA9 /* DBFilters.m */; };
-		9A09CB5519E82FE1003AEEA9 /* DBFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09CB5319E82FE1003AEEA9 /* DBFilters.m */; };
+		9A09CB5619E836B5003AEEA9 /* DBFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09CB5319E82FE1003AEEA9 /* DBFilters.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -263,7 +263,6 @@
 				9A09CB0719E82D5C003AEEA9 /* ViewController.m in Sources */,
 				9A09CB5419E82FE1003AEEA9 /* DBFilters.m in Sources */,
 				9A09CB0419E82D5C003AEEA9 /* AppDelegate.m in Sources */,
-				9A09CB5519E82FE1003AEEA9 /* DBFilters.m in Sources */,
 				9A09CB0119E82D5C003AEEA9 /* main.m in Sources */,
 				9A09CB4B19E82DAC003AEEA9 /* DBGeneratorCI.m in Sources */,
 			);
@@ -274,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A09CB3019E82D7A003AEEA9 /* AppDelegate.m in Sources */,
+				9A09CB5619E836B5003AEEA9 /* DBFilters.m in Sources */,
 				9A09CB2D19E82D7A003AEEA9 /* main.m in Sources */,
 				9A09CB4D19E82FAC003AEEA9 /* DBGeneratorCI.m in Sources */,
 			);

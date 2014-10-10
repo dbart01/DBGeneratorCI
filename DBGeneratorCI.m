@@ -141,7 +141,7 @@ typedef enum {
                     
                     [self writeHeaderProperty:modifiedAttribute scalarType:@"CGAffineTransform" comment:nil];
                     [self writeImpNewLine];
-                    [self writeImpAffineTransformSetterWithName:modifiedAttribute];
+                    [self writeImpAffineTransformSetterWithName:propertyName];
                 }
 #endif
                 
@@ -197,6 +197,13 @@ typedef enum {
 
 #pragma mark - Header Writing -
 - (void)writeHeaderTopWithFilterCount:(int)count {
+    
+#if TARGET_OS_IPHONE
+    NSString *import = @"#import <CoreImage/CoreImage.h>";
+#else
+    NSString *import = @"#import <QuartzCore/QuartzCore.h>";
+#endif
+    
     [_hString appendFormat:@"\
 //\n\
 //  %@.m\n\
@@ -205,7 +212,7 @@ typedef enum {
 //  Contains %i CIFilter subclasses.\n\
 //\n\
 \n\
-#import <CoreImage/CoreImage.h>\n\n", _fileName, count];
+%@\n\n", _fileName, count, import];
 }
 
 - (void)writeHeaderFilterClassInterface:(NSString *)filterName {

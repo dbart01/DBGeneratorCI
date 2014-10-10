@@ -5,7 +5,7 @@
 //  Contains 169 CIFilter subclasses.
 //
 
-#import <CoreImage/CoreImage.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface DBAccordionFoldTransition : CIFilter
 
